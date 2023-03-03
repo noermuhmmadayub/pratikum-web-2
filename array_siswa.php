@@ -28,7 +28,7 @@ $ar_nilai = [$ns1, $ns2, $ns3]
             echo '<td>'.$nilai['uas'].'</td>';    
             echo '<td>'.$nilai['tugas'].'</td>';
             // tuliskan perhitungan nilai akhir di sini
-            $NilaiAkhir =($nilai['ust']+['uas']+['tugas'])/3;
+            $NilaiAkhir =($nilai['uts']+['uas']+['tugas'])/3;
             $nilaiAkhirFormat = number_format($NilaiAkhirFormat,2,',',',');
 
             echo "<td>$nilaiAkhiFormat</td>";
